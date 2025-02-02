@@ -11,7 +11,7 @@ Exam2_Mean = statistics.mean(Exam2_Scores)
 Exam3_Mean = statistics.mean(Exam3_Scores)
 Exam4_Mean = statistics.mean(Exam4_Scores)
 
-x = ["Exam1", "Exam2", "Exam3", "Exam4"]
+x = ["Exam 1", "Exam 2", "Exam 3", "Exam 4"]
 y = [Exam1_Mean, Exam2_Mean, Exam3_Mean, Exam4_Mean]
 plt.bar(x,y,label="Exam Average Score", color="blue")
 
