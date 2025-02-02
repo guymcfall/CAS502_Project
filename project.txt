@@ -1,1 +1,0 @@
-#The project I am working on will simulate a manufacturing floor with various workstations. There will be various processes that flow through these workstations, each process requiring different amounts of time at each workstation. The project will simulate this, and ideally, be able to optimize a worker shift schedule based on time requirements and skill sets.
