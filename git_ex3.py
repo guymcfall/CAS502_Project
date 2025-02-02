@@ -1,17 +1,19 @@
-import statistics
+Import statistics
 import matplot.lib.pyplot as plt
 
-GroupA_Scores = [.89, .93, .82, .95, .99]
-GroupB_Scores = [.77, .65, .60, .78, .77]
-GroupC_Scores = [.72, .88, .87, .86, .67]
+Exam1 = [.89, .93, .82, .95, .99]
+Exam2 = [.77, .65, .60, .78, .77]
+Exam3 = [.72, .88, .87, .86, .67]
+Exam4 = [.84, .86, .91, .93, .95]
 
-GroupA_Mean = statistics.mean(GroupA_Scores)
-GroupB_Mean = statistics.mean(GroupB_Scores)
-GroupC_Mean = statistics.mean(GroupC_Scores)
+Exam1_Mean = statistics.mean(Exam1_Scores)
+Exam2_Mean = statistics.mean(Exam2_Scores)
+Exam3_Mean = statistics.mean(Exam3_Scores)
+Exam4_Mean = statistics.mean(Exam4_Scores)
 
-x = ["GroupA", "GroupB", "GroupC"]
-y = [GroupA_Mean, GroupB_Mean, GroupB_Mean]
-plt.bar(x,y,label="Group Average Score", color="black")
+x = ["Exam1", "Exam2", "Exam3", "Exam4"]
+y = [Exam1_Mean, Exam2_Mean, Exam3_Mean, Exam4_Mean]
+plt.bar(x,y,label="Exam Average Score", color="blue")
 
 plt.xlabel("X")
 plt.ylabel("Y")
